@@ -77,84 +77,29 @@ button {
     text-align: end;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    #cabezera {
-        flex-direction: column;
-        gap: 10px;
-        padding: 15px;
-    }
-
-    nav ul {
-        gap: 10px;
-        justify-content: center;
-    }
-
-    #main-content {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    #hero {
-        padding: 20px;
-    }
-
-    #main-content img {
-        padding: 10px;
-        max-width: 100%;
-    }
-
-    #second-content {
-        flex-direction: column;
-        padding: 20px;
-        gap: 20px;
-    }
-
-    #three-content {
-        padding: 30px 20px;
-        font-size: 28px;
-    }
-
-    #author {
-        text-align: center;
-        margin-top: 20px;
-    }
+#signin {
+    background-color: white;
+    align-items: end;
+    font-family: roboto;
 }
 
-@media (max-width: 480px) {
-    #cabezera {
-        padding: 10px;
-    }
 
-    nav ul {
-        flex-direction: column;
-        gap: 5px;
-    }
+form {
+    display: flex;
+    gap: 15px;
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 10px;
+}
+form button {
+    width: 20%;
+    border: 5px solid #1f2937;
+    border-width: 2px;
+}
 
-    #hero {
-        padding: 15px;
-    }
-
-    #hero h1 {
-        font-size: 24px;
-    }
-
-    #hero p {
-        font-size: 14px;
-    }
-
-    button {
-        padding: 8px 16px;
-        font-size: 14px;
-    }
-
-    #services-title {
-        font-size: 20px;
-    }
-
-    #three-content {
-        font-size: 24px;
-        padding: 20px 15px;
-    }
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
 }
